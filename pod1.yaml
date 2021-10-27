@@ -4,9 +4,9 @@ metadata:
   name: pod1
 spec:
   containers:
-  - name: nginx:1.21-prem
-    image: nginx 1.21
+  - name: nginx-prem
+    image: nginx:1.21
     ports:
-    - containerPort:8080
+    - containerPort: 8080
   - name: watcher-prem
     image: afakharany/watcher
