@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: nginx-prem
-      image: nginx
+    image: nginx
     ports:
     - containerPort: 8080
